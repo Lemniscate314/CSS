@@ -5,6 +5,11 @@
     src: url(./Righteous-Regular.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: "font-1", serif;
     background: url(pexels.jpg) no-repeat fixed center/cover;
@@ -37,6 +42,7 @@ main {
     margin-top: 20px;
 }
 
-h2 {
+
+/* h2 { 
     margin: 0;
-}
+} */
