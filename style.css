@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Lobster&display=swap');
+@font-face {
+    font-family: "font-1";
+    src: url(./Righteous-Regular.ttf);
+}
+
+body {
+    font-family: "font-1", serif;
+    background: url(pexels.jpg) no-repeat fixed center/cover;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+    color: rgb(73, 68, 68);
+    text-shadow: 5px 0px 0 #bfcacf;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+main {
+    background: whitesmoke;
+    width: 90%;
+    min-height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px 5px rgb(71, 71, 71);
+}
+
+.positioning {
+    border: 2px solid dimgray;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 0;
+}
